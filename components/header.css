@@ -1,0 +1,99 @@
+header {
+
+    padding: 30px 80px;
+
+    background: rgb(20, 16, 36);
+
+}
+
+
+
+.header__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.header__nav-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__nav-link {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.header__tel {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.header__icon-tel {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 44px;
+    height: 44px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.burger__menu {
+    position: relative;
+    display: none;
+    z-index: 50;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 44px;
+    height: 44px;
+}
+
+.burger__menu span {
+    position: absolute;
+    border-radius: 20px;
+    width: 26px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.burger__menu span:nth-child(1) {
+    top: 0;
+}.burger__menu span:nth-child(2) {
+    top: 11px;
+}.burger__menu span:nth-child(3) {
+    top: 22px;
+}
+
+.burger__menu.active span:nth-child(3) {
+    opacity: 0;
+}
+
+.burger__menu.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 11px;
+}
+
+.burger__menu.active span:nth-child(2) {
+    transform: rotate(-45deg);
+    top: 11px;
+}
+

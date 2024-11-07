@@ -1,0 +1,89 @@
+@media (max-width: 1400px) {
+    .welcome__img img{
+        width: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .welcome {
+        padding-bottom: 30px;
+    }
+
+    .welcome__item {
+        flex-direction: column;
+    }
+
+    .welcome__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .welcome__subtitle {
+        padding-bottom: 10px;
+    }
+
+    .welcome__btn {
+        position: absolute;
+
+        bottom: 0;
+    }
+
+    .welcome__img img{
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    /*Header*/
+    .burger__menu {
+        display: flex;
+    }
+
+    .header__icon-tel {
+        display: flex;
+    }
+
+    .header__tel {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav.active {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        top: 0; bottom: 0; left: 0; right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background: rgb(20, 16, 36);
+
+    }
+
+    .header__nav-content{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .header__nav-link {
+        font-size: 30px;
+    }
+
+/*    Welcome*/
+
+
+}

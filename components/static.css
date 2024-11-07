@@ -1,0 +1,51 @@
+.static {
+    padding-top: 120px;
+}
+
+.static__item {
+}
+
+.static__text span{
+    color: rgb(20, 16, 36);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.static__text {
+    color: rgb(20, 16, 36);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 160%;
+
+    max-width: 891px;
+
+    padding-bottom: 60px;
+}
+
+.static__content {
+    display: flex;
+}
+
+.static__list {
+}
+
+.static__list-text {
+    display: flex;
+    flex-direction: column;
+
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+
+    padding-bottom: 120px;
+
+}
+
+.static__list-text span {
+    color: rgb(213, 32, 39);
+    font-size: 70px;
+    font-weight: 600;
+    text-align: left;
+}
